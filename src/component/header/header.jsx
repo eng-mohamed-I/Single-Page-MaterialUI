@@ -11,7 +11,7 @@ const Header = () => {
     <AppBar
       position="static"
       sx={{
-        backgroundColor: '#033c39', // Set the background color to green
+        backgroundColor: '#033c39',
         height: '400px',
         display: 'flex',
         justifyContent: 'center',
@@ -19,7 +19,6 @@ const Header = () => {
         position: 'relative',
       }}
     >
-      {/* Container for Text and Button */}
       <Container
         maxWidth="lg"
         sx={{
@@ -31,7 +30,7 @@ const Header = () => {
           Find a developer for mentorship & freelance project
         </Typography>
 
-        {/* Get Help Now Button */}
+      
         <Button variant="contained" style={{backgroundColor: "#bd4900"}} color="secondary" sx={{ mt: 2 }}>
           Get Help Now
         </Button>
